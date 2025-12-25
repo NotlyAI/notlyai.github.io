@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="icon/icon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .error-code {
+            font-size: 120px;
+            font-weight: 800;
+            background: linear-gradient(180deg, #fff 0%, #333 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1;
+            letter-spacing: -5px;
+        }
+        .error-msg {
+            font-size: 24px;
+            color: var(--gray-600);
+            margin: 20px 0 40px 0;
+            font-weight: 500;
+        }
+        .separator {
+            width: 60px;
+            height: 1px;
+            background: var(--gray-200);
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="error-code">404</h1>
+    <div class="error-msg">This page could not be found.</div>
+    <div class="separator"></div>
+    <a href="index.html" class="btn-secondary">Return Home</a>
+</body>
+</html>
